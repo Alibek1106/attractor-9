@@ -1,0 +1,136 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	margin: 0;
+	color: #868d9b;
+	background: #e1e7ed;
+	line-height: 1.3;
+}
+
+*, *::before, *::after{
+	box-sizing: border-box;
+}
+
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.clearfix::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+.card-columns{
+	max-width: 750px;
+	margin: 30px auto;
+}
+
+.card{
+	background: #fff;
+	margin-bottom: 20px;
+}
+
+.card-photo{	
+	position: relative;
+}
+
+.card-photo img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+.discount{
+	display: block;
+	width: 80px;
+	height: 80px;
+	background: #ff638f;
+	color: #fff;
+	text-align: center;
+	line-height: 80px;
+	font-size: 24px;
+	border-radius: 50%;
+	position: absolute;
+	right: 30px;
+	bottom: 25px;
+}
+
+.star::after{
+	content: "";
+	display: block;
+	width: 80px;
+	height: 80px;
+	background: url(../images/star.png) no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.card-info{
+	padding: 30px;
+	position: relative;
+}
+
+.card-info h5{
+	margin: 0 100px 20px 0;
+	font-size: 19px;
+	font-weight: normal;
+	color: #33363b;
+}
+
+.card-info p{
+	line-height: 24px;
+}
+
+.price{
+	font-size: 19px;
+	color: #65bd8c;
+	position: absolute;
+	top: 30px;
+	right: 30px;
+}
+
+.card-bottom{
+	display: flex;
+	justify-content: space-between;
+}
+
+.users{
+	display: flex;
+	align-items: center;
+}
+
+.users img{
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.num-purch{
+	padding: 6px 15px;
+	background-color: transparent;
+	border: 1px solid #e8ebee;
+	border-radius: 50px;
+	display: block;
+	font-size: 14px;
+	margin-right: 10px;
+}
+
+.purch{
+	color: #868d9b;
+	font-size: 14px;
+}
+
+.card-bottom a{
+	text-transform: uppercase;
+	display: block;
+	padding: 20px 30px;
+	background-color: #ff638f;
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 3px;
+}

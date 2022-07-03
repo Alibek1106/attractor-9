@@ -1,0 +1,259 @@
+.header{
+    padding: 12px 0;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: #6d6e70;
+    font-size: 31.2px;
+    text-transform: uppercase;
+    padding-left: 45px;
+    background-image: url('../images/logo.png');
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.logo span{
+    color: #595959;
+}
+
+.header-list{
+    display: flex;
+    list-style: none;
+}
+
+.header-list-items{
+    color: #666666;
+    font-size: 13.2px;
+    text-transform: uppercase;
+}
+
+.header-list-items:not(:last-child){
+    margin-right: 30px;
+}
+
+.hero-wrap{
+    position: relative;
+}
+
+.hero-container{
+    position: absolute;
+    text-align: center;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    font-size: 0;
+    font-size: 22px;
+    color: #fff;
+}
+
+.hero-container a{
+    color: inherit;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 29px 43px;
+    background-color: #99c50a;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.hero-header{
+    margin: 0;
+    font-size: 49px;
+}
+
+.hero-header span{
+    font-size: 35px;
+}
+
+.our-work{
+    padding-top: 48px;
+    padding-bottom: 93px;
+    text-align: center;
+}
+
+.our-work-header{
+    display: block;
+    width: 600px;
+    margin: 0 auto 53px;
+    font-size: 31px;
+    padding-top: 112px;
+    text-transform: uppercase;
+    font-weight: normal;
+    background-image: url('../images/up.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.o-w-first-p{
+    font-size: 20px;
+    margin: 0 0 50px;
+}
+
+.o-w-second-p{
+    font-size: 17px;
+}
+
+.find{
+    background: linear-gradient(to right, #e2f8ff 0%, #e2f8ff 50%, #f5f9eb 50%, #f5f9eb 100%);
+    padding: 46px 0;
+}
+
+.find-header{
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 38px;
+}
+
+.find-container{
+    display: flex;
+}
+
+.find-blocks{
+    width: 50%;
+    padding-left: 180px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.find-left-block{
+    background-image: url('../images/prop.png');
+    margin-left: -22px;
+}
+
+.find-right-block{
+    background-image: url('../images/buyers.png');
+    margin-left: calc(22px + 21px);
+}
+
+.find-blocks a{
+    padding: 19px 25px;
+    background-color: #26a6d1;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 7px;
+    font-size: 16px;
+    margin-top: 32px;
+    display: inline-block;
+}
+
+.find-right-block a{
+    background-color: #add136;
+}
+
+.featured{
+    padding-top: 83px;
+    padding-bottom: 83px;
+}
+
+.featured-header{
+    font-size: 29px;
+    text-align: center;
+    margin: 0 0 25px;
+}
+
+.featured p{
+    font-size: 17px;
+    margin: 0 0 38px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: 300px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.amt-tag{
+    display: inline-block;
+    color: #fff;
+    padding: 11px 12px 11px 10px;
+    background-color: #26a6d1;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 18px;
+    right: 15px;
+}
+
+.amt-tag span{
+    font-weight: bold;
+}
+
+.new::after{
+    content: "";
+    display: block;
+    width: 74px;
+    height: 74px;
+    background-image: url('../images/new.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.card-photo{
+    position: relative;
+}
+
+.card-photo img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.card-header{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    text-align: center;
+    margin: 27px 0 19px;
+}
+
+.card-info{
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+    color: #484848;
+}
+
+.card-info p{
+    font-size: 14px;
+}
+
+hr{
+    height: 1px solid #d6d6d6;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: 23px;
+}
+
+.card-info a{
+    text-align: end;
+    margin-bottom: 25px;
+    text-decoration: none;
+    color: inherit;
+    padding-right: 22px;
+    background-image: url('../images/arrow.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.footer{
+    background-color: #ededed;
+    padding: 30px 0;
+}
+
+.footer p{
+    font-size: 14px;
+    color: #484848;
+    text-align: center;
+}
